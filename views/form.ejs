@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+</head>
+<body>
+    <h1>Add Customers Information</h1>
+    <form method="POST" action="/customers">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+    <br> <br>
+        <label for="custName">Customet Name:</label>
+        <input type="text" id="custName" name="custName" required>
+    <br> <br>
+        <label for="carModel">Car Model:</label>
+        <input type="text" id="carModel" name="carModel" required>
+    <br> <br>
+    <label for="fee">Repair Fee:</label>
+        <input type="text" id="fee" name="fee" required>
+    <br> <br>
+    <button type="submit">Add Customer</button>
+  </form>
+</body>
+</html>
